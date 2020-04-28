@@ -6,11 +6,12 @@
   "files": [
     "index.js",
     "a.js",
-    "b.js"
+    "postinstall.js"
   ],
   "license": "MIT",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "postinstall": "node postinstall.js"
   },
   "devDependencies": {}
 }
