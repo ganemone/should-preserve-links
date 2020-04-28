@@ -5,13 +5,11 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "a.js",
-    "postinstall.js"
+    "a.js"
   ],
   "license": "MIT",
   "scripts": {
-    "test": "node test.js",
-    "postinstall": "node postinstall.js"
+    "test": "node test.js"
   },
   "devDependencies": {}
 }
