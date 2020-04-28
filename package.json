@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "name": "should-preserve-links",
+  "author": "ganemone@gmail.com",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "a.js",
+    "b.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {}
+}
