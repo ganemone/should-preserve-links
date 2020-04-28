@@ -10,7 +10,9 @@ module.exports = function shouldPreserveLinks() {
     return true;
   }
   if (!fs.existsSync(pathToB)) {
-    fs.symlinkSync(pathToA, pathToB);
+    try {
+      fs.symlinkSync(pathToA, pathToB);
+    } catch(e) {}
   }
   const filename = require("./b");
   if (filename.endsWith("b.js")) {
